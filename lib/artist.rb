@@ -12,7 +12,11 @@ class Artist
   end 
   
   def new_song(name, genre)
+<<<<<<< HEAD
     Song.new(name, self, genre)
+=======
+    Song.new(name, genre, self)
+>>>>>>> 91002a61af94380336c8ebe4f774b7e36f2c769f
   end 
   
   def songs
